@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Home from './pages/Home';
+import Home from "./pages/home";
 import EventDetail from './pages/EventDetail';
-import Login from './pages/Login';
-import Register from './pages/Register';
+import Login from "./pages/login";
+import Register from "./pages/register";
 import UserDashboard from './pages/UserDashboard';
 import AdminDashboard from './pages/AdminDashboard';
 import PaymentSuccess from './pages/PaymentSuccess';
